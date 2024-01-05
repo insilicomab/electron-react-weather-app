@@ -20,7 +20,7 @@ export const useCityWeather = () => {
     setLoading(true);
     axios
       .get<CityWeather>(
-        `http://api.weatherapi.com/v1/current.json?key=xxxxxxyyyyyzzzzzzzz&q=${city}&aqi=no`,
+        `http://api.weatherapi.com/v1/current.json?key=53535532cc1b4eada6c125622212908&q=${city}&aqi=no`,
       )
       .then((res) => {
         setResults({
